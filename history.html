@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flashback</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/25937a07f6.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <section class="sub-header">
+      <nav>
+        <a href="index.html"><img src="ImgGallery/gloom2.png" alt="Logo"></a>
+        <div class="nav-links" id="navLinks">
+          <i class="fa fa-times" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="portfolio.html">PORTFOLIO</a></li>
+            <li><a href="history.html">HISTORY</a></li>
+            <li><a href="reviews.html">REVIEWS</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+          </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+      </nav>
+      <h1>About us</h1>
+    </section>
+
+<section class="about-us">
+    <div class="row">
+        <div class="about-col">
+            <h1>We are the world's Largest University</h1>
+            <p>"At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat."</p>
+            <a href="" class="hero-btn red-btn">EXPLORE NOW</a>
+        </div>
+        <div class="about-col">
+             <img src="ImgGallery/unnamed-1.jpg">
+
+        </div>
+    </div>
+</section>    
+ 
+
+<section class="cta">
+  <h1>Come by and see us today!</h1>
+  <a href="" class="hero-btn">Contact US</a>
+</section>
+
+<section class="footer">
+  <h4>About us</h4>
+  <p>Lorem ipsum dolor sit amert, sonsecutr adipisciing elit.</p>
+  <div class="icons">
+    <i class="fa fa-facebook"></i>
+    <i class="fa fa-twitter"></i>
+    <i class="fa fa-instagram"></i>
+    <i class="fa fa-linkedin"></i>
+  </div>
+  <p>Made with <i class="fa fa-heart-o"></i> by VRAS</p>
+</section>
+
+<script>
+  let navLinks = document.getElementById("navLinks"); 
+  function showMenu(){
+    navLinks.style.right = "0";
+  }
+  function hideMenu(){
+    navLinks.style.right = "-350px";
+  }
+  
+</script>        
+</body>
+<script>src="main.js"</script>
+</html>

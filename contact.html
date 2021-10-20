@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flashback</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/25937a07f6.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <section class="sub-header">
+      <nav>
+        <a href="index.html"><img src="ImgGallery/gloom2.png" alt="Logo"></a>
+        <div class="nav-links" id="navLinks">
+          <i class="fa fa-times" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="portfolio.html">PORTFOLIO</a></li>
+            <li><a href="history.html">HISTORY</a></li>
+            <li><a href="reviews.html">REVIEWS</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+          </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+      </nav>
+      <h1>Contact Us</h1>
+    </section>
+
+    <section class="location">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3263.2263111581246!2d-89.98625933885832!3d35.12602556798787!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x887f874b466f4d8b%3A0xa8dc34f0411a3552!2sFlashback%20Inc!5e0!3m2!1sen!2sus!4v1633288539537!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </section>    
+
+<section class="contact-us">
+    <div class="row">
+        <div class="contact-col">
+            <div>
+                <i class="fa fa-home"></i>
+                <span>
+                    <h5>2304 Central Ave</h5>
+                    <p>Memphis TN, 38111</p>
+                </span>
+            </div>
+            <div>
+                <i class="fa fa-phone"></i>
+                <span>
+                    <h5>1(901)827-2394</h5>
+                    <p>Monday - Saturday 10:30-5:30, Sunday 1-5</p>
+                </span>
+            </div>
+            <div>
+                <i class="fa fa-envelope-o"></i>
+                <span>
+                    <h5>Please contact us through Our social media pages</h5>
+                    <p>!!!!!!!!</p>
+                </span>
+            </div>
+            
+        </div>
+        <div class="contact-col"></div>
+    </div>
+</section>    
+
+<section class="cta">
+  <h1>Come by and see us today!</h1>
+  <a href="" class="hero-btn">Contact US</a>
+</section>
+
+
+
+<section class="footer">
+  <h4>About us</h4>
+  <p>Lorem ipsum dolor sit amert, sonsecutr adipisciing elit.</p>
+  <div class="icons">
+    <i class="fa fa-facebook"></i>
+    <i class="fa fa-twitter"></i>
+    <i class="fa fa-instagram"></i>
+    <i class="fa fa-linkedin"></i>
+  </div>
+  <p>Made with <i class="fa fa-heart-o"></i> by VRAS</p>
+</section>
+
+<script>
+  let navLinks = document.getElementById("navLinks"); 
+  function showMenu(){
+    navLinks.style.right = "0";
+  }
+  function hideMenu(){
+    navLinks.style.right = "-350px";
+  }
+  
+</script>        
+</body>
+<script>src="main.js"</script>
+</html>
