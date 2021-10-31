@@ -24,7 +24,7 @@
     background: transparent;
   }
   nav img{
-    width: 250px;
+    width: 220px;
     padding-top: 15px;
   }
   .nav-links{
@@ -322,8 +322,8 @@
     margin: auto;
     text-align: center;
     padding-top: 40px;
-    background-color: #2d8a8a;
-    background-image: url("data:image/svg+xml,%3Csvg width='40' height='40' viewBox='0 0 40 40' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0 0h20v20H0V0zm10 17a7 7 0 1 0 0-14 7 7 0 0 0 0 14zm20 0a7 7 0 1 0 0-14 7 7 0 0 0 0 14zM10 37a7 7 0 1 0 0-14 7 7 0 0 0 0 14zm10-17h20v20H20V20zm10 17a7 7 0 1 0 0-14 7 7 0 0 0 0 14z' fill='%23154b49' fill-opacity='0.9' fill-rule='evenodd'/%3E%3C/svg%3E");
+    background-color: #154b49;
+background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='88' height='24' viewBox='0 0 88 24'%3E%3Cg fill-rule='evenodd'%3E%3Cg id='autumn' fill='%232d8a8a' fill-opacity='0.77'%3E%3Cpath d='M10 0l30 15 2 1V2.18A10 10 0 0 0 41.76 0H39.7a8 8 0 0 1 .3 2.18v10.58L14.47 0H10zm31.76 24a10 10 0 0 0-5.29-6.76L4 1 2 0v13.82a10 10 0 0 0 5.53 8.94L10 24h4.47l-6.05-3.02A8 8 0 0 1 4 13.82V3.24l31.58 15.78A8 8 0 0 1 39.7 24h2.06zM78 24l2.47-1.24A10 10 0 0 0 86 13.82V0l-2 1-32.47 16.24A10 10 0 0 0 46.24 24h2.06a8 8 0 0 1 4.12-4.98L84 3.24v10.58a8 8 0 0 1-4.42 7.16L73.53 24H78zm0-24L48 15l-2 1V2.18A10 10 0 0 1 46.24 0h2.06a8 8 0 0 0-.3 2.18v10.58L73.53 0H78z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
     margin: 20px 20px 20px 20px;
     border-radius: 10px;
   }
@@ -368,33 +368,7 @@
     margin-bottom: 15px;
     text-align: left;
   }
-  @media(max-width: 700px){
-    .campus2 h1 {
-      max-width: 280px;
-      font-size: 36px;
-      margin-top: -3px;
-    }
-    .campus2 p {
-      font-size: 18px;
-    }
-    .course2 h1 {
-      max-width: 300px;
-      font-size: 24px;
-      margin-bottom: -11px;
-    }
-    .row2 p{
-      padding:  30px 7px 10px 7px; 
-    }
-    .facilities h1 {
-      max-width: 260px;
-      font-size: 28px;
-      margin-bottom: -1px;
-    }
-    .facilities {
-      margin: 0;
-      border-radius: 0;
-    }
-  }
+ 
 
 .testimonials {
   width: 80%;
@@ -426,9 +400,9 @@
   text-align: left; 
 }
 .cta{
-  margin: 100px auto; 
+  margin: 50px auto; 
   width: 80%;
-  background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),url(ImgGallery/unnamed-1.jpg);
+  background-image: linear-gradient(rgba(16, 76, 80, 0.7), rgba(17, 41, 39, 0.5)),url(ImgGallery/footer1.jpg);
   background-position: center;
   background-size: cover;
   border-radius: 10px;
@@ -437,28 +411,60 @@
 }
 .cta h1{
   color: #fff;
-  margin-bottom: 40px;
+  margin-bottom: 10px;
   padding: 0; 
 }
+.iframe-container{
+  margin: 50px auto; 
+  display: flex;
+  justify-content: center;
+  padding: 10px 0;
+  
+}
+@media(max-width: 700px){
+  .campus2 h1 {
+    max-width: 280px;
+    font-size: 36px;
+    margin-top: -3px;
+  }
+  .campus2 p {
+    font-size: 18px;
+  }
+  .course2 h1 {
+    max-width: 300px;
+    font-size: 24px;
+    margin-bottom: -11px;
+  }
+  .row2 p{
+    padding:  30px 7px 10px 7px; 
+  }
+  .facilities h1 {
+    max-width: 260px;
+    font-size: 28px;
+    margin-bottom: -1px;
+  }
+  .facilities {
+    margin: 0;
+    border-radius: 0;
+  }
+  .iframe-container{
+    padding-bottom: 6.25%; 
+  }
+}
+
 .footer{
   width: 100%;
   text-align: center;
   padding: 30 px 0;
 }
-.footer :h4{
-  margin-bottom: 25px;
-  margin-top: 20px;
-  font-weight: 600;
-}
+
 .icons .fa{
-  color: #f44336;
-  margin: 0 13px;
+  color: #2d8a8a;
+  margin: 50px 13px;
   cursor: pointer;
   padding: 18px 0;
 }
-.fa-heart-o{
-  color: #f44336; 
-}
+
 
 /*--- History ---*/
 .sub-header{
