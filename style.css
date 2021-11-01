@@ -10,7 +10,7 @@
   .header{
     min-height: 80vh;
     width: 100%;
-    background-image: linear-gradient(rgba(63, 179, 145, 0.813),rgba(55, 190, 274, 0.75)),url(/ImgGallery/FBheader.jpg);
+    background-image: linear-gradient(rgba(33, 141, 109, 0.813),rgba(55, 190, 274, 0.75)),url(/ImgGallery/FBheader.jpg);
     background-position: center;
     background-size: cover;
     position: relative;
@@ -421,6 +421,28 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
   padding: 10px 0;
   
 }
+
+.footer{
+  width: 100%;
+  text-align: center;
+  padding: 30 px 0;
+  background-color: #154b49;
+}
+
+.footer p{
+  padding-top: 20px;
+  color: #fff;
+  font-size: 18px;
+  margin: 0;
+}
+
+.icons .fa{
+  color: #2d8a8a;
+  margin: 10px 13px;
+  cursor: pointer;
+  padding: 18px 0;
+}
+
 @media(max-width: 700px){
   .campus2 h1 {
     max-width: 280px;
@@ -450,21 +472,12 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
   .iframe-container{
     padding-bottom: 6.25%; 
   }
+  .footer p{
+    color: #fff;
+    font-size: 16px;
+    margin: 0;
+  }
 }
-
-.footer{
-  width: 100%;
-  text-align: center;
-  padding: 30 px 0;
-}
-
-.icons .fa{
-  color: #2d8a8a;
-  margin: 10px 13px;
-  cursor: pointer;
-  padding: 18px 0;
-}
-
 
 /*--- History ---*/
 .sub-header{
@@ -472,8 +485,8 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
   min-height: 320px;
   max-height: 320px;
   width: 100%;
-  background-image: linear-gradient(rgba(46,179,214,0.5),rgba(12, 109, 72, 0.1)),url(/ImgGallery/Lower13.jpg);
-  background-position: center;
+  background-image: linear-gradient(rgba(36, 130, 156, 0.8),rgba(50, 199, 142, 0.4)),url(/ImgGallery/HeaderSub3.jpg);
+  background-position: 45% 20%;
   background-size: cover;
   text-align: center;
   color: #fff;
@@ -714,6 +727,7 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
 
 
 .slideshow-container {
+  padding-top: 40px;
   position: relative;
   max-width: 800px;
   margin-right: auto;
@@ -756,7 +770,7 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
 
 .prev:hover,
 .next:hover {
-  background-color: black;
+  background-color: #2d8a8a;
 }
 
 .dot-container {
@@ -828,11 +842,6 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
     padding: 6px 24px;
   }
 }
-.slidecon{
-  background-image: linear-gradient(rgba(46,179,214,0.5),rgba(12, 109, 72, 0.1)),url(/ImgGallery/Flowers1.png);
-      padding: 13px;
-      background-position: center;
-  }
 
 
 
@@ -860,6 +869,12 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
 }
 
 
+.slidecon{
+  background-color: #133b39;
+background-image: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%232d8a8a' fill-opacity='0.77'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+  padding: 13px;
+  background-position: no-repeat;
+  }
 
 
 .slideshow-container1 {
@@ -868,6 +883,7 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
   margin-right: auto;
   margin-left: auto;
   overflow: hidden;
+  padding-top: 40px;
 }
 
 .image-container1 {
@@ -905,7 +921,7 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
 
 .prev1:hover,
 .next1:hover {
-  background-color: black;
+  background-color: #2d8a8a;
 }
 
 .dot-container1 {
@@ -990,6 +1006,7 @@ background-image: linear-gradient(rgba(46,179,214,0.5),rgba(12, 109, 72, 0.1)),u
   margin-right: auto;
   margin-left: auto;
   overflow: hidden;
+  padding-top: 40px;
 }
 
 .image-container2 {
@@ -1027,7 +1044,7 @@ background-image: linear-gradient(rgba(46,179,214,0.5),rgba(12, 109, 72, 0.1)),u
 
 .prev2:hover,
 .next2:hover {
-  background-color: black;
+  background-color: #2d8a8a;
 }
 
 .dot-container2 {
@@ -1102,7 +1119,390 @@ background-image: linear-gradient(rgba(46,179,214,0.5),rgba(12, 109, 72, 0.1)),u
     min-height: 270px;
     max-height: 270px;
 }
+}
 .slidecon2{
+background-image: linear-gradient(rgba(46,179,214,0.5),rgba(12, 109, 72, 0.1)),url(/ImgGallery/Flowers1.png);
+    padding: 13px;
+    background-position: center;
+}
+/* 3 */
+
+.slideshow-container3  {
+  position: relative;
+  max-width: 800px;
+  margin-right: auto;
+  margin-left: auto;
+  overflow: hidden;
+  padding-top: 40px;
+}
+
+.image-container3 {
+  display: block;
+  overflow: hidden;
+}
+
+.image-container3 .image {
+  width: 100%;
+  max-height: 600px;
+  object-fit: scale-down;
+  margin: 0px;
+}
+
+.prev3,
+.next3 {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: auto;
+  padding: 16px;
+  margin-top: 22px;
+  color: white;
+  font-weight: bold;
+  font-size: 30px;
+  border-radius: 0px 3px 3px 0px;
+  cursor: pointer;
+  user-select: none;
+}
+
+.next3 {
+  right: 0px;
+  border-radius: 3px 0px 0px 3px;
+}
+
+.prev3:hover,
+.next3:hover {
+  background-color: #2d8a8a;
+}
+
+.dot-container3 {
+  text-align: center;
+}
+
+.dot3 {
+  position: inherit;
+  top: -40px;
+  height: 8px;
+  width: 36px;
+  background-color: #bbb;
+  border-radius: 0px;
+  display: inline-block;
+  cursor: pointer;
+  z-index: 1;
+  transition: all .5s;
+}
+
+.active,
+.dot3:hover {
+  background-color: #555;
+}
+
+.content3 {
+  color: white;
+  max-width: 1050px;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: justify;
+  padding: 12px 60px;
+  letter-spacing: 1px;
+  font-family: verdana, sans-serif;
+}
+
+.fade {
+  animation: fade .3s ease-in-out;
+}
+@keyframes fade {
+  0% {
+    opacity: 0;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 0.5;
+    transform: scale(1.1);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+@media only screen and (max-width:700px) {
+  .prev3,
+  .next3 {
+    padding: 12px;
+    font-size: 18px;
+  }
+  .dot-container3 {
+    padding: 0px;
+  }
+  .dot3 {
+    height: 4px;
+    width: 18px;
+  }
+  .content3 {
+    font-size: 12px;
+    padding: 6px 24px;
+  }
+  .sub-header{
+    height: 45vh;
+    min-height: 270px;
+    max-height: 270px;
+}
+}
+.slidecon3{
+background-image: linear-gradient(rgba(46,179,214,0.5),rgba(12, 109, 72, 0.1)),url(/ImgGallery/Flowers1.png);
+    padding: 13px;
+    background-position: center;
+}
+/* 4 */
+
+.slideshow-container4  {
+  position: relative;
+  max-width: 800px;
+  margin-right: auto;
+  margin-left: auto;
+  overflow: hidden;
+  padding-top: 40px;
+}
+
+.image-container4 {
+  display: block;
+  overflow: hidden;
+}
+
+.image-container4 .image {
+  width: 100%;
+  max-height: 600px;
+  object-fit: scale-down;
+  margin: 0px;
+}
+
+.prev4,
+.next4 {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: auto;
+  padding: 16px;
+  margin-top: 22px;
+  color: white;
+  font-weight: bold;
+  font-size: 30px;
+  border-radius: 0px 3px 3px 0px;
+  cursor: pointer;
+  user-select: none;
+}
+
+.next4 {
+  right: 0px;
+  border-radius: 3px 0px 0px 3px;
+}
+
+.prev4:hover,
+.next4:hover {
+  background-color: #2d8a8a;
+}
+
+.dot-container4 {
+  text-align: center;
+}
+
+.dot4 {
+  position: inherit;
+  top: -40px;
+  height: 8px;
+  width: 36px;
+  background-color: #bbb;
+  border-radius: 0px;
+  display: inline-block;
+  cursor: pointer;
+  z-index: 1;
+  transition: all .5s;
+}
+
+.active,
+.dot4:hover {
+  background-color: #555;
+}
+
+.content4 {
+  color: white;
+  max-width: 1050px;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: justify;
+  padding: 12px 60px;
+  letter-spacing: 1px;
+  font-family: verdana, sans-serif;
+}
+
+.fade {
+  animation: fade .3s ease-in-out;
+}
+@keyframes fade {
+  0% {
+    opacity: 0;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 0.5;
+    transform: scale(1.1);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+@media only screen and (max-width:700px) {
+  .prev4,
+  .next4 {
+    padding: 12px;
+    font-size: 18px;
+  }
+  .dot-container4 {
+    padding: 0px;
+  }
+  .dot4 {
+    height: 4px;
+    width: 18px;
+  }
+  .content4 {
+    font-size: 12px;
+    padding: 6px 24px;
+  }
+  .sub-header{
+    height: 45vh;
+    min-height: 270px;
+    max-height: 270px;
+}
+}
+.slidecon4{
+background-image: linear-gradient(rgba(46,179,214,0.5),rgba(12, 109, 72, 0.1)),url(/ImgGallery/Flowers1.png);
+    padding: 13px;
+    background-position: center;
+}
+
+/* 5 */
+
+.slideshow-container5  {
+  position: relative;
+  max-width: 800px;
+  margin-right: auto;
+  margin-left: auto;
+  overflow: hidden;
+  padding-top: 40px;
+}
+
+.image-container5 {
+  display: block;
+  overflow: hidden;
+}
+
+.image-container5 .image {
+  width: 100%;
+  max-height: 600px;
+  object-fit: scale-down;
+  margin: 0px;
+}
+
+.prev5,
+.next5 {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: auto;
+  padding: 16px;
+  margin-top: 22px;
+  color: white;
+  font-weight: bold;
+  font-size: 30px;
+  border-radius: 0px 3px 3px 0px;
+  cursor: pointer;
+  user-select: none;
+}
+
+.next5 {
+  right: 0px;
+  border-radius: 3px 0px 0px 3px;
+}
+
+.prev5:hover,
+.next5:hover {
+  background-color: #2d8a8a;
+}
+
+.dot-container5 {
+  text-align: center;
+}
+
+.dot5 {
+  position: inherit;
+  top: -40px;
+  height: 8px;
+  width: 36px;
+  background-color: #bbb;
+  border-radius: 0px;
+  display: inline-block;
+  cursor: pointer;
+  z-index: 1;
+  transition: all .5s;
+}
+
+.active,
+.dot5:hover {
+  background-color: #555;
+}
+
+.content5 {
+  color: white;
+  max-width: 1050px;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: justify;
+  padding: 12px 60px;
+  letter-spacing: 1px;
+  font-family: verdana, sans-serif;
+}
+
+.fade {
+  animation: fade .3s ease-in-out;
+}
+@keyframes fade {
+  0% {
+    opacity: 0;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 0.5;
+    transform: scale(1.1);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+@media only screen and (max-width:700px) {
+  .prev5,
+  .next5 {
+    padding: 12px;
+    font-size: 18px;
+  }
+  .dot-container5 {
+    padding: 0px;
+  }
+  .dot5 {
+    height: 4px;
+    width: 18px;
+  }
+  .content5 {
+    font-size: 12px;
+    padding: 6px 24px;
+  }
+  .sub-header{
+    height: 45vh;
+    min-height: 270px;
+    max-height: 270px;
+}
+}
+.slidecon5{
 background-image: linear-gradient(rgba(46,179,214,0.5),rgba(12, 109, 72, 0.1)),url(/ImgGallery/Flowers1.png);
     padding: 13px;
     background-position: center;

@@ -94,6 +94,85 @@ function newSlide2(n) {
   Carousel2(slideNo2 += n);
 }
 
-function currentSlide1(n) {
-  Carousel1(slideNo1 = n);
+
+//slider3 
+
+var slideNo3 = 1;
+Carousel3(slideNo3);
+
+function Carousel3(n) {
+  var slides3 = document.getElementsByClassName("image-container3");
+  var dots3 = document.getElementsByClassName("dot3");
+  if (n > slides3.length) {
+    slideNo3 = 1;
+  }
+  if (n < 1) {
+    slideNo3 = slides3.length;
+  }
+  for (var i = 0; i < slides3.length; i++) {
+    slides3[i].style.display = "none";
+  }
+  slides3[slideNo3 - 1].style.display = "block";
+  for (var i = 0; i < dots3.length; i++) {
+    dots3[i].className = dots3[i].className.replace(" active", "");
+  }
+  dots3[slideNo3 - 1].className += " active";
+}
+function newSlide3(n) {
+  Carousel3(slideNo3 += n);
+}
+
+//slider4 
+
+var slideNo4 = 1;
+Carousel4(slideNo4);
+
+function Carousel4(n) {
+  var slides4 = document.getElementsByClassName("image-container4");
+  var dots4 = document.getElementsByClassName("dot4");
+  if (n > slides4.length) {
+    slideNo4 = 1;
+  }
+  if (n < 1) {
+    slideNo4 = slides4.length;
+  }
+  for (var i = 0; i < slides4.length; i++) {
+    slides4[i].style.display = "none";
+  }
+  slides4[slideNo4 - 1].style.display = "block";
+  for (var i = 0; i < dots4.length; i++) {
+    dots4[i].className = dots4[i].className.replace(" active", "");
+  }
+  dots4[slideNo4 - 1].className += " active";
+}
+function newSlide4(n) {
+  Carousel4(slideNo4 += n);
+}
+
+
+//slider5
+
+var slideNo5 = 1;
+Carousel5(slideNo5);
+
+function Carousel5(n) {
+  var slides5 = document.getElementsByClassName("image-container5");
+  var dots5 = document.getElementsByClassName("dot5");
+  if (n > slides5.length) {
+    slideNo5 = 1;
+  }
+  if (n < 1) {
+    slideNo5 = slides5.length;
+  }
+  for (var i = 0; i < slides5.length; i++) {
+    slides5[i].style.display = "none";
+  }
+  slides5[slideNo5 - 1].style.display = "block";
+  for (var i = 0; i < dots5.length; i++) {
+    dots5[i].className = dots5[i].className.replace(" active", "");
+  }
+  dots5[slideNo5 - 1].className += " active";
+}
+function newSlide5(n) {
+  Carousel5(slideNo5 += n);
 }
