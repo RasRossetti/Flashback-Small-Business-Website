@@ -782,7 +782,7 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
   top: -40px;
   height: 8px;
   width: 36px;
-  background-color: #bbb;
+  background-color: #35B9B2;
   border-radius: 0px;
   display: inline-block;
   cursor: pointer;
@@ -792,7 +792,7 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
 
 .active,
 .dot:hover {
-  background-color: #555;
+  background-color: #fff;
 }
 
 .content {
@@ -870,8 +870,8 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
 
 
 .slidecon{
-  background-color: #133b39;
-background-image: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%232d8a8a' fill-opacity='0.77'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+  background-color: #112d2b;
+background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='199' viewBox='0 0 100 199'%3E%3Cg fill='%23258784' fill-opacity='0.53'%3E%3Cpath d='M0 199V0h1v1.99L100 199h-1.12L1 4.22V199H0zM100 2h-.12l-1-2H100v2z'%3E%3C/path%3E%3C/g%3E%3C/svg%3E");
   padding: 13px;
   background-position: no-repeat;
   }
@@ -933,7 +933,7 @@ background-image: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox=
   top: -40px;
   height: 8px;
   width: 36px;
-  background-color: #bbb;
+  background-color: blue;
   border-radius: 0px;
   display: inline-block;
   cursor: pointer;
@@ -993,9 +993,9 @@ background-image: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox=
   }
 }
 .slidecon1{
-background-image: linear-gradient(rgba(46,179,214,0.5),rgba(12, 109, 72, 0.1)),url(/ImgGallery/Flowers1.png);
-    padding: 13px;
+ padding: 13px;
     background-position: center;
+    
 }
 
 
@@ -1448,7 +1448,7 @@ background-image: linear-gradient(rgba(46,179,214,0.5),rgba(12, 109, 72, 0.1)),u
 
 .active,
 .dot5:hover {
-  background-color: #555;
+  background-color: #fff;
 }
 
 .content5 {
