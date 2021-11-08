@@ -788,7 +788,7 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
   top: -40px;
   height: 8px;
   width: 36px;
-  background-color: #35B9B2;
+  background-color: #30C6C4;
   border-radius: 0px;
   display: inline-block;
   cursor: pointer;
@@ -798,7 +798,7 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
 
 .active,
 .dot:hover {
-  background-color: #fff;
+  background-color: #3EFAF1;
 }
 
 .content {
@@ -876,10 +876,13 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
 
 
 .slidecon{
-  background-color: #112d2b;
-background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='199' viewBox='0 0 100 199'%3E%3Cg fill='%23258784' fill-opacity='0.53'%3E%3Cpath d='M0 199V0h1v1.99L100 199h-1.12L1 4.22V199H0zM100 2h-.12l-1-2H100v2z'%3E%3C/path%3E%3C/g%3E%3C/svg%3E");
+  background-color: #0F2220;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 1600 800'%3E%3Cg %3E%3Cpolygon fill='%2312393e' points='1600 160 0 460 0 350 1600 50'/%3E%3Cpolygon fill='%2316505d' points='1600 260 0 560 0 450 1600 150'/%3E%3Cpolygon fill='%2319677b' points='1600 360 0 660 0 550 1600 250'/%3E%3Cpolygon fill='%231d7e9a' points='1600 460 0 760 0 650 1600 350'/%3E%3Cpolygon fill='%232095B8' points='1600 800 0 800 0 750 1600 450'/%3E%3C/g%3E%3C/svg%3E");
+  background-attachment: fixed;
+  background-size: cover;
   padding: 13px;
-  background-position: no-repeat;
+  background-position: center;
+  /* background by SVGBackgrounds.com */
   }
 
 
@@ -939,7 +942,7 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
   top: -40px;
   height: 8px;
   width: 36px;
-  background-color: blue;
+  background-color:#30C6C4;
   border-radius: 0px;
   display: inline-block;
   cursor: pointer;
@@ -999,9 +1002,13 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
   }
 }
 .slidecon1{
- padding: 13px;
-    background-position: center;
-    
+  padding: 13px;
+  background-color: #0F2220;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 1600 800'%3E%3Cg %3E%3Cpolygon fill='%2312393e' points='1600 160 0 460 0 350 1600 50'/%3E%3Cpolygon fill='%2316505d' points='1600 260 0 560 0 450 1600 150'/%3E%3Cpolygon fill='%2319677b' points='1600 360 0 660 0 550 1600 250'/%3E%3Cpolygon fill='%231d7e9a' points='1600 460 0 760 0 650 1600 350'/%3E%3Cpolygon fill='%232095B8' points='1600 800 0 800 0 750 1600 450'/%3E%3C/g%3E%3C/svg%3E");
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  /* background by SVGBackgrounds.com */
 }
 
 
@@ -1062,7 +1069,7 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
   top: -40px;
   height: 8px;
   width: 36px;
-  background-color: #bbb;
+  background-color: #30C6C4;
   border-radius: 0px;
   display: inline-block;
   cursor: pointer;
@@ -1127,9 +1134,13 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
 }
 }
 .slidecon2{
-background-image: linear-gradient(rgba(46,179,214,0.5),rgba(12, 109, 72, 0.1)),url(/ImgGallery/Flowers1.png);
-    padding: 13px;
-    background-position: center;
+  background-color: #0F2220;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 1600 800'%3E%3Cg %3E%3Cpolygon fill='%2312393e' points='1600 160 0 460 0 350 1600 50'/%3E%3Cpolygon fill='%2316505d' points='1600 260 0 560 0 450 1600 150'/%3E%3Cpolygon fill='%2319677b' points='1600 360 0 660 0 550 1600 250'/%3E%3Cpolygon fill='%231d7e9a' points='1600 460 0 760 0 650 1600 350'/%3E%3Cpolygon fill='%232095B8' points='1600 800 0 800 0 750 1600 450'/%3E%3C/g%3E%3C/svg%3E");
+  background-attachment: fixed;
+  background-size: cover;
+  padding: 13px;
+  background-position: center;
+  /* background by SVGBackgrounds.com */
 }
 /* 3 */
 
@@ -1189,7 +1200,7 @@ background-image: linear-gradient(rgba(46,179,214,0.5),rgba(12, 109, 72, 0.1)),u
   top: -40px;
   height: 8px;
   width: 36px;
-  background-color: #bbb;
+  background-color: #30C6C4;
   border-radius: 0px;
   display: inline-block;
   cursor: pointer;
@@ -1254,9 +1265,13 @@ background-image: linear-gradient(rgba(46,179,214,0.5),rgba(12, 109, 72, 0.1)),u
 }
 }
 .slidecon3{
-background-image: linear-gradient(rgba(46,179,214,0.5),rgba(12, 109, 72, 0.1)),url(/ImgGallery/Flowers1.png);
-    padding: 13px;
-    background-position: center;
+  background-color: #0F2220;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 1600 800'%3E%3Cg %3E%3Cpolygon fill='%2312393e' points='1600 160 0 460 0 350 1600 50'/%3E%3Cpolygon fill='%2316505d' points='1600 260 0 560 0 450 1600 150'/%3E%3Cpolygon fill='%2319677b' points='1600 360 0 660 0 550 1600 250'/%3E%3Cpolygon fill='%231d7e9a' points='1600 460 0 760 0 650 1600 350'/%3E%3Cpolygon fill='%232095B8' points='1600 800 0 800 0 750 1600 450'/%3E%3C/g%3E%3C/svg%3E");
+  background-attachment: fixed;
+  background-size: cover;
+  padding: 13px;
+  background-position: center;
+  /* background by SVGBackgrounds.com */
 }
 /* 4 */
 
@@ -1316,7 +1331,7 @@ background-image: linear-gradient(rgba(46,179,214,0.5),rgba(12, 109, 72, 0.1)),u
   top: -40px;
   height: 8px;
   width: 36px;
-  background-color: #bbb;
+  background-color: #30C6C4;
   border-radius: 0px;
   display: inline-block;
   cursor: pointer;
@@ -1381,9 +1396,13 @@ background-image: linear-gradient(rgba(46,179,214,0.5),rgba(12, 109, 72, 0.1)),u
 }
 }
 .slidecon4{
-background-image: linear-gradient(rgba(46,179,214,0.5),rgba(12, 109, 72, 0.1)),url(/ImgGallery/Flowers1.png);
-    padding: 13px;
-    background-position: center;
+  background-color: #0F2220;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 1600 800'%3E%3Cg %3E%3Cpolygon fill='%2312393e' points='1600 160 0 460 0 350 1600 50'/%3E%3Cpolygon fill='%2316505d' points='1600 260 0 560 0 450 1600 150'/%3E%3Cpolygon fill='%2319677b' points='1600 360 0 660 0 550 1600 250'/%3E%3Cpolygon fill='%231d7e9a' points='1600 460 0 760 0 650 1600 350'/%3E%3Cpolygon fill='%232095B8' points='1600 800 0 800 0 750 1600 450'/%3E%3C/g%3E%3C/svg%3E");
+  background-attachment: fixed;
+  background-size: cover;
+  padding: 13px;
+  background-position: center;
+  /* background by SVGBackgrounds.com */
 }
 
 /* 5 */
@@ -1444,7 +1463,7 @@ background-image: linear-gradient(rgba(46,179,214,0.5),rgba(12, 109, 72, 0.1)),u
   top: -40px;
   height: 8px;
   width: 36px;
-  background-color: #bbb;
+  background-color: #30C6C4;
   border-radius: 0px;
   display: inline-block;
   cursor: pointer;
@@ -1509,7 +1528,12 @@ background-image: linear-gradient(rgba(46,179,214,0.5),rgba(12, 109, 72, 0.1)),u
 }
 }
 .slidecon5{
-background-image: linear-gradient(rgba(46,179,214,0.5),rgba(12, 109, 72, 0.1)),url(/ImgGallery/Flowers1.png);
+    background-image: linear-gradient(rgba(46,179,214,0.5),rgba(12, 109, 72, 0.1)),url(/ImgGallery/Flowers1.png);
+    background-color: #0F2220;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 1600 800'%3E%3Cg %3E%3Cpolygon fill='%2312393e' points='1600 160 0 460 0 350 1600 50'/%3E%3Cpolygon fill='%2316505d' points='1600 260 0 560 0 450 1600 150'/%3E%3Cpolygon fill='%2319677b' points='1600 360 0 660 0 550 1600 250'/%3E%3Cpolygon fill='%231d7e9a' points='1600 460 0 760 0 650 1600 350'/%3E%3Cpolygon fill='%232095B8' points='1600 800 0 800 0 750 1600 450'/%3E%3C/g%3E%3C/svg%3E");
+    background-attachment: fixed;
+    background-size: cover;    
     padding: 13px;
     background-position: center;
+    /* background by SVGBackgrounds.com */
 }
