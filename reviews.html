@@ -15,7 +15,7 @@
     <section class="sub-header">
       <nav>
         <a href="index.html"><img src="ImgGallery/FlashbackWhite.png" alt="Logo"></a>
-        <!-- <div class="nav-links" id="navLinks">
+        <div class="nav-links" id="navLinks">
           <i class="fa fa-times" onclick="hideMenu()"></i>
           <ul>
             <li><a href="index.html">HOME</a></li>
@@ -25,20 +25,7 @@
             <li><a href="contact.html">CONTACT</a></li>
           </ul>
         </div>
-        <i class="fa fa-bars" onclick="showMenu()"></i> -->
-        <div id="icon1">
-
-        </div>
-
-        <div id="menu">
-          <ul>
-            <li><a href="index.html">HOME</a></li>
-            <li><a href="portfolio.html">PORTFOLIO</a></li>
-            <li><a href="history.html">HISTORY</a></li>
-            <li><a href="reviews.html">REVIEWS</a></li>
-            <li><a href="contact.html">CONTACT</a></li>
-          </ul>
-        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
       </nav>
       <h1>Reviews</h1>
     </section>
@@ -50,7 +37,7 @@
           <img src="ImgGallery/review5.jpg" class="image fade" />
           <img src="ImgGallery/review1.jpg" class="image fade" />
           <img src="ImgGallery/review3.jpg" class="image fade" />
-          <img src="ImgGallery/review4.jpg" id="review4" />
+          <img src="ImgGallery/review4.jpg" id="review" />
           <img src="ImgGallery/review2.jpg" id="review2" />
         </div>
     </div>
@@ -74,7 +61,7 @@
   </div>
 </section>
 
-<!--
+
 <script>
   let navLinks = document.getElementById("navLinks"); 
   function showMenu(){
@@ -83,17 +70,8 @@
   function hideMenu(){
     navLinks.style.right = "-350px";
   }
-</script> -->   
-
-<script>
-  const icon = document.getElementById('.icon1');
-  const menu = document.getElementById('.menu');
-  icon.onclick = function() {
-    icon.classList.toggle('active');
-    menu.classList.toggle('active');
-  }
-
-</script>
+  
+</script>        
 </body>
 <script defer src="script.js"></script>
 </html>
