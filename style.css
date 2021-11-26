@@ -50,19 +50,16 @@
     border: none;
     transition: 1s;
   } 
-
-
   .textbox{
     width: 80%;
     color: white;
     position: relative;
-    margin-top: 130px;
+    margin-top: 180px;
     top: 60%;
     left: 60%;
     transform: translate(-50%,-50%);
     text-align: left;
     background: transparent;
-    
   }
   .textbox h1{
     position: relative;
