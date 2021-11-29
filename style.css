@@ -6,6 +6,7 @@
     box-sizing: border-box;
   }
 
+
   .header{
     min-height: 80vh;
     width: 100%;
@@ -14,42 +15,68 @@
     background-size: cover;
     position: relative;
   }
-
   nav{
     display: flex; 
     flex-flow: nowrap;
-    padding: 3% 6%;
+    padding: 3% 5%;
     justify-content: space-between;
     align-items: center;
     background: transparent;
     position: relative;
   }
-  nav img{
-    width: 320px;
-    padding-top: 15px;
+  .hamburger{
+   display: none;
   }
-  .nav-links{
+  .times{
+    display: none;
+  }
+  .backdrop2{
+  display: none;
+  }
+  .backdrop2--active{
+    display: block;
+  }
+  .sidebar2{
     flex: 1;
     text-align: right;
-  }
-  .nav-links ul li{
-    list-style: none;
     display: inline-block;
     padding: 8px 12px;
     position: relative;
   }
-  .nav-links ul li a{
-    color: white;
-    border: 1px solid white;
-    padding: 6px 9px;
-    text-decoration: none;
-    font-size: 12px;
+  
+  .sidebar_profile{
+    padding: 1rem 1.5rem;
+    display: flex;
+    border-bottom: 2px solid rgba(2,2,2,0.1);
+    align-items: center;
   }
-  .nav-links ul li a:hover{
-    background: #154B49;
-    border: none;
-    transition: 1s;
-  } 
+
+nav img{
+  width: 320px;
+  padding: 15px;
+}
+.sidebar_list{
+  list-style: none;
+  text-decoration: none;
+}
+.sidebar_item{
+  padding: 1rem .7rem;
+  display: inline-block;
+}
+.sidebar_item a{
+  color: #fff;
+  border: 1px solid white;
+  padding: 6px 9px;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+}
+.sidebar_item a:hover{
+  background: #154B49;
+  border: none;
+  transition: 1s;
+} 
+
   .textbox{
     width: 80%;
     color: white;
@@ -98,40 +125,80 @@
     font-size: 26px;
     margin: 10px;
   }
-
-  @media(max-width: 925px){
-    .nav-links ul li{
-      display: block;
-      margin-top: 20px;
+  @media(max-width: 912px){
+    nav{
+      color: #fff;
+      font-size: 1.6rem;
+      padding: 0.5rem 1rem;
+      display: flex;
+      align-items: center;
+      box-shadow: 0 0 4px rgba(0,0,0,0.2);
     }
-    .nav-links{
+    .hamburger{
+      display: block;
+      transform: translateY(3px);
+      margin-right: 1rem;
+      cursor: pointer;
+    }
+    .times{
+      display: flex;
+      margin: 1rem;
+      cursor: pointer;
+    }
+    .backdrop2{
+      position: fixed;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0,0,0,0.4);
+      display: none;
+    }
+    .backdrop2--active{
+      display: block;
+    }
+    .sidebar2{
       position: fixed;
       background-image: linear-gradient(rgba(30, 141, 75, 0.4),rgba(55, 190, 274, 0.8)),url(/ImgGallery/NavBarImg.jpg);
       background-position: center;
-      height: 100vh;
-      width: 350px; 
       top: 0;
-      right: -350px;
-      text-align: left;
-      z-index: 2;
-      transition: 1s; 
+      right: 0;
+      width: 70%;
+      max-width: 18rem;
+      height: 100%;
+      transition: all 1s cubic-bezier(0.075, 0.82, 0.165, 1);
+      box-shadow: 0 0 4px rgba(0,0,0.2);
+      background-color: #245854; 
+      /* transfrom from right */
+      transform: translateX(100%);
       
     }
-    nav .fa{
-      display: block; 
+    .sidebar2--active{
+      /* transfrom from right */
+      transform: translateX(0%);
+    } 
+    .sidebar_list{
+      list-style: none;
+    }
+    .sidebar_item{
+      padding: 1rem 1.5rem;
+      font-size: 1.2rem;
+      display: block;
+      position: relative;
+      overflow: hidden;
+      display: flex;
+      align-items: center;
+    }
+    .sidebar_item a{
       color: #fff;
-      margin: 20px; 
-      font-size: 22px;
-      cursor: pointer;
+      text-decoration: none;
+      display: flex;
+      align-items: center;
+      }
+      .row {
+        flex-direction: column;
+      }
     }
-    .nav-links ul {
-      padding: 40px;
-    }
-    .row {
-      flex-direction: column;
-    }
-  }
-
   @media(max-width: 700px){
     .textbox h1{
       font-size: 40px;
@@ -336,6 +403,9 @@ background-position: center;
       .campus2{
         margin:0;
         border-radius: 0px;
+      }
+      .layer h3{
+        font-size: 44px;
       }
   }
 

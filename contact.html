@@ -15,18 +15,36 @@
     <section class="sub-header">
       <nav>
         <a href="index.html"><img src="ImgGallery/FlashbackWhite.png" alt="Logo"></a>
-        <div class="nav-links" id="navLinks">
-          <i class="fa fa-times" onclick="hideMenu()"></i>
-          <ul>
-            <li><a href="index.html">HOME</a></li>
-            <li><a href="portfolio.html">PORTFOLIO</a></li>
-            <li><a href="history.html">HISTORY</a></li>
-            <li><a href="reviews.html">REVIEWS</a></li>
-            <li><a href="contact.html">CONTACT</a></li>
-          </ul>
-        </div>
-        <i class="fa fa-bars" onclick="showMenu()"></i>
-      </nav>
+      <div class="hamburger">
+          <i class="fas fa-bars"></i>
+      </div>
+         
+  
+
+  <div class="backdrop2"></div>
+  <div class="sidebar2">
+    <div class="times">
+      <fa class="fas fa-times"></fa>
+    </div>
+      <div class="sidebar_list">
+          <li class="sidebar_item">
+              <a href="index.html">HOME</a>
+          </li>
+          <li class="sidebar_item">
+              <a href="portfolio.html">PORTFOLIO</a>
+          </li>
+          <li class="sidebar_item">
+              <a href="history.html">HISTORY</a>
+          </li>
+          <li class="sidebar_item">
+              <a href="reviews.html">REVIEWS</a>
+          </li>
+          <li class="sidebar_item">
+              <a href="contact.html">CONTACT</a>
+          </li>
+      </div>
+    </nav>
+  </div>
       <h1>Contact</h1>
     </section>
 
@@ -94,21 +112,6 @@
     <a href="contact.html"></a><i class="fa fa-phone"></i></a>
   </div>
 </section>
-
-<script>
-  let navLinks = document.getElementById("navLinks"); 
-  let navMenu = document.getElementById("navMenu");
-  
-  function showMenu(){
-    navLinks.style.right = "0";
-  }
-  function hideMenu(){
-    navLinks.style.right = "-350px";
-  } 
-// add even listener outside nav menu 
-
-
-
 
 
 </script>        
