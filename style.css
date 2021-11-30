@@ -5,8 +5,6 @@
     list-style: none;
     box-sizing: border-box;
   }
-
-
   .header{
     min-height: 80vh;
     width: 100%;
@@ -31,8 +29,8 @@
     display: none;
   }
   .backdrop2{
-  display: none;
-  }
+    display: none;
+    }
   .backdrop2--active{
     display: block;
   }
@@ -131,8 +129,7 @@ nav img{
       font-size: 1.6rem;
       padding: 0.5rem 1rem;
       display: flex;
-      align-items: center;
-      box-shadow: 0 0 4px rgba(0,0,0,0.2);
+      align-items: center;   
     }
     .hamburger{
       display: block;
@@ -153,6 +150,7 @@ nav img{
       height: 100%;
       background-color: rgba(0,0,0,0.4);
       display: none;
+      z-index: 2;
     }
     .backdrop2--active{
       display: block;
@@ -171,6 +169,7 @@ nav img{
       background-color: #245854; 
       /* transfrom from right */
       transform: translateX(100%);
+      z-index: 3;
       
     }
     .sidebar2--active{
@@ -182,7 +181,7 @@ nav img{
     }
     .sidebar_item{
       padding: 1rem 1.5rem;
-      font-size: 1.2rem;
+      font-size: 1rem;
       display: block;
       position: relative;
       overflow: hidden;
@@ -395,7 +394,7 @@ background-position: center;
      bottom: 49%;
      opacity: 1;
   }
-  @media (max-width: 600px){
+  @media (max-width: 700px){
       .course{
         margin: 0;
         border-radius: 0px;
