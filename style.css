@@ -643,6 +643,7 @@ background-position: center;
 }
 .about-col img{
   width: 100%;
+  padding-top: 20px;
 }
 .about-col h1{
   margin-top: -40px;
@@ -650,8 +651,9 @@ background-position: center;
   text-align: center;
 }
 .about-col p{
-  padding: 10px 0 20px; 
-  color: #0C2221;
+  padding: 0px 0 20px; 
+  color: #fff;
+  background-color: fff;
 }
 .red-btn{
   border: 1px solid #154b49;
